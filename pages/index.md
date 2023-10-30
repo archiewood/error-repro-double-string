@@ -48,7 +48,7 @@ The following columns `last_week_cpa` and `cpa_growth` should are of type double
 
 This is last week CPA, unformatted: **<Value data={marketing_spend_demo} column="last_week_cpa" row=10/>**
 
-Now let me try and format it as a currency: <Value data={marketing_spend_demo} column="last_week_cpa" row=10 format=usd0 />
+Now let me try and format it as a currency: <Value data={marketing_spend_demo} column="last_week_cpa" row=10 fmt=usd0 />
 
 Now let me try to use it in a BigValue comparison.
 
